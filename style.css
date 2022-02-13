@@ -1,0 +1,413 @@
+/* CSS Variables */
+:root {
+    --primary:rgb(221, 221, 221); 
+    --dark:rgb(0, 0, 0);
+    --light:rgb(255, 255, 255);
+    --shadow:rgb(112, 112, 112);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+}
+
+body {
+    background: var(--light);
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Fonts */
+@font-face {
+    font-family: logofont;
+    src: url(./fonts/Vandalism.ttf)
+}
+
+@font-face {
+    font-family: subheading;
+    src: url(./fonts/pandoramaDEMO.otf);
+}
+
+/* Logo */
+.logo-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 4fr 1fr;
+}
+
+h1 {
+    display: grid;
+    font-family: logofont;
+    font-size: 4.2vw;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    white-space: nowrap;
+}
+
+.mob-logo {
+    display: none;
+}
+
+/* Main Navigation */
+.main-nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    font-family: subheading;
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+.main-nav a:hover {
+    background: var(--dark);
+    color: var(--light);
+}
+
+/* Dropdown Navigation */
+.drop-nav {
+    display: grid;
+}
+
+.drop-btn {
+    display: none;
+    padding: 5px;
+    width: 50px;
+    background: var(--primary);
+    border: 2px solid var(--dark);
+}
+
+.dropdown-links {
+    display: none;
+    position: absolute;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    font-family: subheading;
+}
+
+.dropdown-links a {
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    background: var(--primary);
+    border: 1px solid var(--dark);
+}
+
+.drop-nav:hover .dropdown-links {
+    display: block;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.dropdown-links a:hover {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.drop-nav:hover .drop-btn {
+    background-color: var(--dark);
+}
+
+/* Video/Questions Section */
+/* Video */
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'video question1'
+    'video question2';
+    grid-template-columns: 66.4% auto;
+}
+
+.video {
+    grid-area: video;
+    max-width: 100%;
+    height: auto;
+    margin: auto auto;
+}
+
+.top-container h3 {
+    display: none;
+}
+
+/* Questions */
+.question {
+    background: var(--primary);
+    padding: 20px 20px; 
+    text-align: center;
+}
+
+.question1 {
+    grid-area: question1;
+}
+
+.question1 strong {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#yes1 {
+    margin: 20px 0px 25px 0px;
+}
+
+#no1 {
+    margin: 0px 0px 25px 0px;
+}
+
+.question2 {
+    grid-area: question2;
+}
+
+.question2 strong {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#yes2 {
+    margin: 20px 0px 25px 0px;
+}
+
+#no2 {
+    margin: 0px 0px 25px 0px;
+}
+
+.question label {
+    font-size: 15px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+/* Character Section */
+.character-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'character-title character-title character-title'
+    'flameboy devilman wet-willy'
+}
+
+.character-title {
+    grid-area: character-title;
+    font-family: subheading;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.flameboy {
+    grid-area: flameboy;
+}
+
+.devilman {
+    grid-area: devilman;
+}
+
+.wet-willy {
+    grid-area: wet-willy;
+}
+
+/* People Section */
+.people-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'people-title people-title people-title'
+    'vallely rocco mullen';
+}
+
+.people-title {
+    grid-area: people-title;
+    font-family: subheading;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.vallely {
+    grid-area: vallely;
+}
+
+.rocco {
+    grid-area: rocco;
+}
+
+.mullen {
+    grid-area: mullen;
+}
+
+/* Decks Section */
+.decks-container {
+    display: grid;
+    grid-template-areas:
+    'decks-title'
+    'decks-text'
+    'decks-banner';
+}
+
+.decks-title {
+    grid-area: decks-title;  
+    font-family: subheading;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.decks-text {
+    grid-area: decks-text;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.decks-banner {
+    grid-area: decks-banner;
+    padding: 0;
+    margin: 0;
+    object-fit: fill;
+    max-width: 100%;
+    border: 1px solid black;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.decks-banner img {
+    width: 15%;
+    margin: 0;
+}
+
+/* Footer */
+footer a {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    float: left;
+    width: 50px;
+    height: auto;
+}
+
+footer a #web-icon {
+    padding-left: 15%;
+}
+
+footer p {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem;
+    float: right;
+}
+
+/* Back-to-Top Button */
+.go-top-btn {
+    position: fixed;
+    width: 40px;
+    height: auto;
+    bottom: 0px;
+    right: 5px;
+}
+
+/* Media Queries (Accessibility) */
+
+@media only screen and (max-width: 700px) {
+    .top-container {
+        grid-template-areas:
+        'video video'
+        'question1 question1'
+        'question2 question2';
+    }   
+    .character-container {
+        grid-template-areas:
+        'character-title'
+        'flameboy'
+        'flameboy-txt'
+        'devilman';
+    } 
+    .people-container {
+        grid-template-areas:
+        'people-title'
+        'vallely'
+        'rocco'
+        'mullen';
+    }
+
+    .decks-banner img {
+        width: 45%;
+    }
+
+    .web-logo {
+        display: none;
+    }
+
+    .mob-logo {
+        display: grid;
+        float: left;
+        width: 225px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .drop-btn {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 427px) {
+    body {
+        margin: 20px;
+    }
+
+    .dropdown-links a {
+        width: 50px;
+        font-size: 12px;
+    }
+
+    .titles {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width: 1750px) {
+    img.web-logo {
+        width: 200px;
+    }
+}

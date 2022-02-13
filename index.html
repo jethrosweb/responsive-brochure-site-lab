@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of World Industries</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header>
+
+            <!-- Logo Section -->
+            <section class="logo-container">
+                <h1 class="web-logo">The World of World Industries</h1>
+                <img src="./media/logo2.png" alt="Logo" class="web-logo">
+                <img src="./media/logo.png" alt="Logo" class="mob-logo">
+                
+                <!-- Dropdown Navigation (hidden by default and hidden for large screens) -->
+                <nav class="drop-nav">
+                    <button class="drop-btn"><img src="./media/menu.png" alt="Dropdown menu"></button>
+                    <ul class="dropdown-links">
+                        <li><a href="#characters">Characters</a></li>
+                        <li><a href="#people">People</a></li>
+                        <li><a href="#decks">Decks</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+        
+            <!-- Main Navigation -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#characters">Characters</a></li>
+                    <li><a href="#people">People</a></li>
+                    <li><a href="#decks">Decks</a></li> 
+                </ul>
+            </nav>
+        </header>   
+        
+        <!-- Main -->
+        <main>
+
+            <!-- Video/Questions Section -->
+            <section class="top-container">
+                 <!-- Video -->
+                <h3>Video & Questions</h3>
+                <video controls autoplay class="video">
+                    <source src="./media/NWO.mp4" type="video/mp4">
+                    <!-- <source src="./media/NWO.ogg" type="video/ogg"> commented out as file size to large to push to github -->
+                    Your browser does not support HTML5 video <a href="https://browsehappy.com/" target="_blank">Please upgrade your browser</a>
+                </video>
+
+                <!-- Questions -->
+                <form class="question question1">
+                    <strong>Do you know World Industries?</strong>
+                    <br>
+                    <label for="yes1">Yes</label>
+                    <input type="radio" name="onenswer" id="yes1">
+                    <br>
+                    <label for="no1">No</label>
+                    <input type="radio" name="onenswer" id="no1">
+                    <br>
+                    <label for="unsure1">Unsure</label>
+                    <input type="radio" name="onenswer" checked="checked" id="unsure1">
+                    <br>
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+                <form class="question question2">
+                    <strong>Did you ever own World Industries merchandise?</strong>
+                    <br>
+                    <label for="yes2">Yes</label>
+                    <input type="radio" name="singleanswer" id="yes2">
+                    <br>
+                    <label for="no2">No</label>
+                    <input type="radio" name="singleanswer" id="no2">
+                    <br>
+                    <label for="unsure2">Unsure</label>
+                    <input type="radio" name="singleanswer" checked="checked" id="unsure2">
+                    <br>
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+            </section>
+
+            <!-- Character Section -->
+            <section class="character-container">
+                <h3 class="character-title titles" id="characters">Characters:</h3>
+                <div>
+                    <img src="./media/flameboy-logo.png" alt="Flameboy" class="flameboy">
+                    <h3>Flameboy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus animi exercitationem harum enim voluptate!</p>  
+                </div>
+                <div>
+                    <img src="./media/devilman-logo.png" alt="Devilman" class=devilman>
+                    <h3>Devilman</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus animi exercitationem harum enim voluptate!</p>
+                </div>
+                <div>
+                    <img src="./media/wet-willy-logo.png" alt="Wet Willy" class="wet-willy">
+                    <h3>Wet Willy</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus animi exercitationem harum enim voluptate!</p>
+                </div>
+            </section>
+
+            <!-- People Section -->
+            <section class="people-container" id="people">
+                <h3 class="people-title titles">People:</h3>
+                <div class="vallely">
+                    <img src="./media/vallely.png" alt="Mike Vallely">
+                    <div>
+                        <h3>Mike Vallely</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus at nobis voluptatibus minus earum quas?</p>
+                    </div>
+                    </div>
+                <div class="rocco">
+                    <img src="./media/rocco.png" alt="Steve Rocco">
+                    <div>
+                        <h3>Steve Rocco</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus at nobis voluptatibus minus earum quas?</p>
+                    </div>
+                </div>
+                <div class="mullen">
+                    <img src="./media/mullen.png" alt="Rodney Mullen">
+                    <div>
+                        <h3>Rodney Mullen</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus at nobis voluptatibus minus earum quas?</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Decks Section -->
+            <section class="decks-container">
+                <h3 class="decks-title titles" id="decks">Decks:</h3>
+                <p class="decks-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequatur quia placeat consequuntur veniam corporis!</p>
+                <div class="decks-banner">
+                    <img src="./media/deck1.png" alt="deck1">
+                    <img src="./media/deck2.png" alt="deck2">
+                    <img src="./media/deck3.png" alt="deck3">
+                    <img src="./media/deck4.png" alt="deck4">
+                    <img src="./media/deck5.png" alt="deck5">
+                    <img src="./media/deck6.png" alt="deck6">
+                    <img src="./media/deck7.png" alt="deck7">
+                    <img src="./media/deck8.png" alt="deck8">
+                    <img src="./media/deck9.png" alt="deck9">
+                    <img src="./media/deck10.png" alt="deck10">
+                    <img src="./media/deck11.png" alt="deck11">
+                    <img src="./media/deck12.png" alt="deck12">
+                    <img src="./media/deck13.png" alt="deck13">
+                    <img src="./media/deck14.png" alt="deck14">
+                    <img src="./media/deck15.png" alt="deck15">
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+
+            <!-- Social Links -->
+            <div>
+                <a href="https://www.instagram.com/worldindustries/?hl=en" target="_blank"><img src="./media/insta-logo.png" alt="Instagram"></a>
+                <a href="https://worldindustries.com/" target="_blank"><img src="./media/web-logo.png" alt="Website" id="web-icon"></a>
+            </div>
+
+            <!-- Copyright/Credit Section -->
+            <p>Credit to World Industries 1987</p>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <a href="#" class="go-top-btn"><img src="./media/top.png" alt="Go to top" title="Go To Top"></a>
+
+    </div>
+    <!-- Wrapper Ends -->
+
+</body>
+</html>
