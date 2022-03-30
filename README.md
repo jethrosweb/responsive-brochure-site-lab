@@ -17,7 +17,7 @@ Requirements:
 
 ### Mobile:
 <p align="center">
-   <img width="20%" alt="Screen Shot 2022-03-30 at 5 05 50 pm" src="https://user-images.githubusercontent.com/96323853/160763382-7266b677-096a-4a68-9bbd-c80cd556d737.png">
+   <img width="25%" alt="Screen Shot 2022-03-30 at 5 05 50 pm" src="https://user-images.githubusercontent.com/96323853/160763382-7266b677-096a-4a68-9bbd-c80cd556d737.png">
    <img width="20%" alt="Screen Shot 2022-03-30 at 5 06 14 pm" src="https://user-images.githubusercontent.com/96323853/160763406-1626bedb-5448-47e6-b1e1-394e6f66f20f.png">
    <img width="20%" alt="Screen Shot 2022-03-30 at 5 06 25 pm" src="https://user-images.githubusercontent.com/96323853/160763422-8ef56c07-7921-4c82-9ff9-3669b7dc5caa.png">
    <img width="20%" alt="Screen Shot 2022-03-30 at 5 06 40 pm" src="https://user-images.githubusercontent.com/96323853/160763432-eae4bf8c-8d95-4077-964b-b1ca7be69095.png">
