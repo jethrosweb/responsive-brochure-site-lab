@@ -1,78 +1,24 @@
-# Project 1: The Brochure Site
+# Responsive Brochure Site
+First project for Academy Xi Web Development course.
 
-## Problem Statement
+Requirements:
+- Your site must use HTML5 semantic elements for grouping content e.g. `<header>`, `<article>`, and `<aside>`.
+- Your HTML must pass validation.
+- Your CSS must pass validation.
+- Your site must use one of these layout: multicolumn with floats, `flexbox`, or CSS grid.
+- You must include _at least_ 3 images.
+- Deploy your site to web hosting using Surge.
+- Your site must be optimized for _at least_ 2 viewports (a full-screen device as well as a mobile device).
 
-You've been learning HTML and CSS over the previous lessons. You've been
-receiving specific guidance ("Use a `<link>` tag!") and have been steered by
-our documentation or tests. In effort to help you build your confidence, we're
-going to give you _nothing_ except some specifications and leave the document
-structure and styling _to you_.  It's time to tie all your learning together
-into one project. You must create....
+### Desktop:
+<p align="center">
+   <img width="1517" alt="Screen Shot 2022-03-30 at 5 07 32 pm" src="https://user-images.githubusercontent.com/96323853/160763305-52ab1de6-8a60-4ec1-82d1-b62ce038d3b9.png">
+</p>
 
-![Alarmed kitten](https://media.giphy.com/media/11wjdvVFDf19cI/giphy.gif)
-
-..._a brochure site_!
-
-When the first web sites started to appear in the mid-nineties, _brochure
-sites_ were the _only_ sites on the web. They were called _brochure sites_
-because, well, like _brochures_ they provided static text and images, contact
-information, a few divisions, and had a certain style.
-
-## Learning Objectives
-
-1. Build a brochure site
-
-## Build a Brochure Site
-
-### Requirements
-
-1. Your site must use HTML5 semantic elements for grouping content e.g.
-   `<header>`, `<article>`, and `<aside>`
-2. Your HTML must pass validation
-3. Your CSS must pass validation
-4. Your site must use one of these layout: multicolumn with floats, `flexbox`,
-   or CSS grid.
-5. You must include _at least_ 3 images
-6. Deploy your site to web hosting
-7. Your site must be optimized for _at least_ 2 viewports (a full-screen device
-   as well as a mobile device). _See below_
-
-![Full Size](https://curriculum-content.s3.amazonaws.com/web-development/exceptional-realty-screenshots/ex_realty_640x480.png)
-
-_Full-size view of "Exceptional Realty"_
-
-![Viewed in an iPhone Simulator](https://curriculum-content.s3.amazonaws.com/web-development/exceptional-realty-screenshots/ex_realty_404x760.png)
-
-_Smaller screen size "Exceptional Realty." Notice how the logo has changed, the
-text is now missing, etc._
-
-These are baseline requirements. The goal of web design is to _serve the
-content_. Implement whatever features are needed to serve your audience the
-information they need.
-
-### Not Specified
-
-1. **The subject matter**.
-   * A r&eacute;sum&eacute; or CV-like page with thumbnails of your work
-   * A fan page like "Why [Sachin Tendulkar][ST] is the Greatest Sportsman of 3 generations"
-   * A media preview page ("My list of [Phish][] Recordings with Audio Samples"). This
-2. **The Number of pages**. The goal of web design is to serve the content. If
-   multiple pages does this best, great. Google has become a multi-billion
-   dollar company with the most deceptively simple landing page in history.
-   Serve your page with user experience in mind.
-
-### Completion and Moving On
-
-In this lab there's a file called "MY URL." You must place your URL inside this
-file. Afterward run `learn` and `learn submit`.
-
-### Conclusion
-
-In this lab you've reached a very important milestone: you've created a web
-page from scratch and deployed it on the internet. You are really a web
-developer now! You should feel comfortable editing templates, adjusting themes,
-and debugging CSS / HTML issues. Congratulations. To continue learning more,
-check out what JavaScript can do to make a web page more dynamic!
-
-[ST]: https://en.wikipedia.org/wiki/Sachin_Tendulkar
-[Phish]: https://en.wikipedia.org/wiki/Phish
+### Mobile:
+<p align="center">
+   <img width="20%" alt="Screen Shot 2022-03-30 at 5 05 50 pm" src="https://user-images.githubusercontent.com/96323853/160763382-7266b677-096a-4a68-9bbd-c80cd556d737.png">
+   <img width="20%" alt="Screen Shot 2022-03-30 at 5 06 14 pm" src="https://user-images.githubusercontent.com/96323853/160763406-1626bedb-5448-47e6-b1e1-394e6f66f20f.png">
+   <img width="20%" alt="Screen Shot 2022-03-30 at 5 06 25 pm" src="https://user-images.githubusercontent.com/96323853/160763422-8ef56c07-7921-4c82-9ff9-3669b7dc5caa.png">
+   <img width="20%" alt="Screen Shot 2022-03-30 at 5 06 40 pm" src="https://user-images.githubusercontent.com/96323853/160763432-eae4bf8c-8d95-4077-964b-b1ca7be69095.png">
+</p>
